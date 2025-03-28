@@ -194,7 +194,7 @@ nav a {
     height: 138px;
     margin-left: 60px;
     border-radius: 10px;
-    transition: transform 0.4s;
+    transition: transform 0.2s;
     margin-top: -6%;
     cursor: pointer;
 }
@@ -207,7 +207,7 @@ nav a {
     width: 265px;
     /* margin-left: 40px; */
     border-radius: 10px;
-    transition: transform 0.4s;
+    transition: transform 0.2s;
     margin-top: -7%;
     cursor: pointer;
 
@@ -224,7 +224,7 @@ nav a {
     height: 138px;
     /* margin-left: 40px; */
     border-radius: 10px;
-    transition: transform 0.4s;
+    transition: transform 0.2s;
     margin-top: -7%;
     cursor: pointer;
 }
@@ -234,7 +234,7 @@ nav a {
     width: 270px;
     /* margin-left: 40px; */
     border-radius: 10px;
-    transition: transform 0.4s;
+    transition: transform 0.2s;
     margin-top: -7%;
     cursor: pointer;
 }
@@ -261,7 +261,7 @@ nav a {
     width: 243px;
     margin-left: 60px;
     border-radius: 10px;
-    transition: transform 0.4s;
+    transition: transform 0.2s;
     margin-top: -6%;
     cursor: pointer;
 }
@@ -271,7 +271,7 @@ nav a {
     width: 243px;
     /* margin-left: 40px; */
     border-radius: 10px;
-    transition: transform 0.4s;
+    transition: transform 0.2s;
     margin-top: -7%;
     cursor: pointer;
 }
