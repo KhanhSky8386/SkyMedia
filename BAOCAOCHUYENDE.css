@@ -1,0 +1,285 @@
+.codinh{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+main{
+    margin-top: 66px ;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 37px;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #222;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: white;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+.one{
+    display: flex;
+    justify-content: flex-start;
+     
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 100%;
+}
+.pim:hover,.tivi:hover,.music:hover,.cartoon:hover,.thethao:hover{
+    color: crimson;
+}
+.bell:hover,.search:hover{
+    color: crimson;
+}
+.bell,.search,.user {
+    font-size: 23px;
+}
+.user:hover{
+    color: crimson;
+}
+#login{
+    font-size: 15px;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: red;
+    color: aliceblue ;
+}
+.br{
+    color: red;
+}
+.div1{
+    list-style: none;
+    line-height: 24px;
+}
+.div0{
+    list-style: none;
+    display: flex;
+}
+.div2{
+    line-height: 24px;
+    list-style: none;
+}
+.sdt{
+    margin-left: 6px;
+}
+.div3{
+    list-style: none;
+    line-height: 24px;
+}
+.mail{
+    margin-left: 6px;
+}
+.ytb{
+    color: white;
+    margin-left: 10px;
+}
+.toptop{
+    color: white;
+    margin-left: 10px;
+}
+.fb{
+    color: white;
+}
+.div0{
+    margin-right: 200px;
+    margin-left: 200px;
+    justify-content: space-between;
+}
+.div1 li:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.div2 li:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.fb:hover,.ytb:hover,.toptop:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.backgr1 {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+
+.backgr2 {
+    display: flex;
+    justify-content: center;
+    background-image: url('img/backgroundhtml.jpg'); /* Kiểm tra lại đường dẫn */
+    width: 100%;
+    height: 500px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.65);
+    background-repeat: no-repeat;
+    background-size: 90%; /* Giúp ảnh phủ kín */
+    background-position: center; /* Căn giữa ảnh */
+    background-blend-mode: darken;
+    border-radius: 100px;
+}
+.text{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    color: white;
+    /* font-size: 50px; */
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9); /* Hiệu ứng bóng */
+}
+.phongchu{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55px;
+}
+.phongchu2{
+    font-size: 20px;
+    line-height: 1px;
+    margin-top: -20px;
+}
+@keyframes khanh {
+    0% { box-shadow: 0px 0px 10px rgb(255, 0, 55); }
+    50% { box-shadow: 0px 0px 60px rgb(255, 0, 25); }
+    100% { box-shadow: 0px 0px 10px rgb(255, 0, 0); }
+}
+.nut{
+    padding: 4px 15px;
+    border-radius: 25px;
+    background-color:  rgb(255, 60, 0);
+    margin-top: 31px;
+    align-items: center;
+    animation: khanh 1.4s infinite alternate;
+}
+.dki{
+    color: aliceblue;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.tieude1,.tenphim1{
+    margin-left: 60px;
+    margin-bottom: 7%;
+}
+.phim1{
+    height: 138px;
+    margin-left: 60px;
+    border-radius: 10px;
+    transition: transform 0.4s;
+    margin-top: -6%;
+    cursor: pointer;
+}
+.phim1:hover {
+    transform: scale(1.1);
+}
+.phimBAR,.phimMC,.phimREAL{
+    display: flex;
+    height: 138px;
+    width: 265px;
+    /* margin-left: 40px; */
+    border-radius: 10px;
+    transition: transform 0.4s;
+    margin-top: -7%;
+    cursor: pointer;
+
+}
+.phimBAR:hover,.phimMC:hover,.phimREAL:hover{
+    transform: scale(1.1);
+}
+.tenphim1,.tenphim2,.tenphim3,.tenphim4,.tenphim5,.tenphim6,.tenphim7,
+.tenphim8,.tenphim9,.tenphim10{
+    font-size: 13px;
+}
+.phim2,.phim3,.phim4,.phim5,.phim6,.phim7,.phim8,.phim9,.phim10{
+    display: flex;
+    height: 138px;
+    /* margin-left: 40px; */
+    border-radius: 10px;
+    transition: transform 0.4s;
+    margin-top: -7%;
+    cursor: pointer;
+}
+.MTP{
+    display: flex;
+    height: 138px;
+    width: 270px;
+    /* margin-left: 40px; */
+    border-radius: 10px;
+    transition: transform 0.4s;
+    margin-top: -7%;
+    cursor: pointer;
+}
+.MTP:hover{
+    transform: scale(1.1);
+}
+.phim2:hover,.phim3:hover,.phim4:hover,.phim5:hover,.phim6:hover,.phim7:hover,.phim8:hover,
+.phim9:hover,.phim10:hover{
+    transform: scale(1.1);
+}
+.DIV{
+    margin-top: -4.5%;
+    align-items: start;
+    display: grid ;
+    grid-template-columns: repeat(10,1fr);
+    gap: 1%;
+    
+}
+.div-to {
+    display: flex;
+}
+.loaiphim1{
+    height: 310px;
+    width: 243px;
+    margin-left: 60px;
+    border-radius: 10px;
+    transition: transform 0.4s;
+    margin-top: -6%;
+    cursor: pointer;
+}
+.loaiphim2{
+    display: flex;
+    height: 310px;
+    width: 243px;
+    /* margin-left: 40px; */
+    border-radius: 10px;
+    transition: transform 0.4s;
+    margin-top: -7%;
+    cursor: pointer;
+}
+.loaiphim1:hover,.loaiphim2:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
