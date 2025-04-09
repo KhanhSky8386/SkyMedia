@@ -339,10 +339,14 @@ nav a {
     border-radius: 10px;
 }
 
+.DIV-container {
+    overflow-x: auto;
+}
+
 .carousel {
     margin-left: 60px;
     position: relative;
-    max-width:  900px;
+    max-width:  1200px;
     width: 100%;
 }
 
