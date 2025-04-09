@@ -3,6 +3,8 @@
     left: 0;
     top: 0;
     right: 0;
+    /* Trung: Tránh việc hiệu ứng nổi lên của ảnh nổi trên header */
+    z-index: 1000;
     z-index: 1001;
 }
 
@@ -15,6 +17,7 @@ main{
     color: red;
     font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -22,6 +25,7 @@ nav ul {
     padding: 0;
     margin: 0;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -29,6 +33,7 @@ header {
     padding: 10px 20px;
     background-color: #222;
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -36,26 +41,37 @@ body {
     background-color: #111;
     color: white;
 }
+
 nav a {
     color: white;
     text-decoration: none;
 }
-.one{
+
+.one {
     display: flex;
     justify-content: flex-start;
-     
+
 }
-.logo1{
+
+.logo1 {
     display: flex;
     align-items: center;
     gap: 25px;
     font-size: 100%;
 }
 .pim:hover,.tivi:hover,.music:hover,.cartoon:hover,.thethao:hover,.xemthem:hover{
+
+.pim:hover,
+.tivi:hover,
+.music:hover,
+.cartoon:hover,
+.thethao:hover {
     color: crimson;
     cursor: pointer;
 }
-.bell:hover,.search:hover{
+
+.bell:hover,
+.search:hover {
     color: crimson;
 }
 .bell,.search,.user {
