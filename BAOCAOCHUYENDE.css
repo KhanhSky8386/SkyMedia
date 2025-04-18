@@ -109,6 +109,7 @@ nav a {
 .div0 {
     list-style: none;
     display: flex;
+    justify-content: center;
 }
 
 .div2 {
@@ -123,6 +124,11 @@ nav a {
 .div3 {
     list-style: none;
     line-height: 24px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 .mail {
@@ -144,9 +150,11 @@ nav a {
 }
 
 .div0 {
-    margin-right: 200px;
-    margin-left: 200px;
-    justify-content: space-between;
+    /* margin-right: 200px;
+    margin-left: 200px; */
+    /* justify-content: space-between; */
+    gap: 8%;
+    margin: 0 3%;
 }
 
 .div1 li:hover {
@@ -182,10 +190,9 @@ nav a {
     border-radius: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: 140%;
     /* Giúp ảnh phủ kín */
-    background-position: center;
-    /* Căn giữa ảnh */
+    background-position: cover;
     background-blend-mode: darken;
     border-radius: 100px;
 }
@@ -366,7 +373,7 @@ nav a {
 }
 
 .carousel {
-    margin-left: 60px;
+    margin-left: 5%;
     position: relative;
     max-width:  1390px;
     width: 100%;
@@ -375,7 +382,6 @@ nav a {
 .pre:hover {
     opacity: 10;
 }
-
 .pre2{
     position: absolute;
     z-index: 1000;
@@ -486,19 +492,24 @@ nav a {
     }
 
     .phongchu {
-        font-size: 23px;
+        font-size: 25px;
     }
     .phongchu2{
-        font-size: 13px;
+        font-size: 14px;
         margin-top: 8px;
     }
     .nut{
-        width: 160px;
+        width: 175px;
         margin-top: 8px;
         height: 39px;
     }
     .dki{
-        font-size: 10px;
+        font-size: 11px;
         padding: 0px;
+    }
+}
+@media screen and (max-width: 450px){
+    .div0 {
+        flex-direction: column;
     }
 }
