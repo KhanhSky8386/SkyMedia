@@ -280,7 +280,6 @@ nav a {
     display: flex;
     align-items: center;
     position: relative;
-    margin-right: 200px;
 }
 
 .loaiphim1 {
@@ -328,25 +327,47 @@ nav a {
 .pre {
     position: absolute;
     z-index: 1000;
-    height: 310px;
-    width: 75px;
+    height: 314px;
+    width: 63px;
     font-size: 60px;
     opacity: 0;
     border: none;
-    background-color: rgba(42, 83, 215, 0.2);
-    color: rgba(11, 7, 237, 0.926);
-    bottom: 46px;
-    border-radius: 10px;
+    background-color: rgba(1, 5, 20, 0.907);
+    color: rgba(233, 233, 241, 0.926);
+    bottom: 43px;
+    border-radius: 5px;
+    left: 0px;
+}
+.next0{
+    position: absolute;
+    z-index: 1000;
+    height: 311px;
+    width: 60px;
+    font-size: 60px;
+    opacity: 0;
+    border: none;
+    background-color: rgba(1, 5, 20, 0.907);
+    color: rgba(233, 233, 241, 0.926);
+    bottom: 45px;
+    border-radius: 2px;
+    right: 0%;
+}
+.next0:hover {
+    opacity: 10;
 }
 
 .DIV-container {
     overflow-x: auto;
+    -ms-overflow-style: none;      /* Old Edge/IE */
+    scrollbar-width: none;  
+    scroll-behavior: smooth;
+    
 }
 
 .carousel {
     margin-left: 60px;
     position: relative;
-    max-width:  1200px;
+    max-width:  1390px;
     width: 100%;
 }
 
@@ -362,8 +383,8 @@ nav a {
     font-size: 60px;
     opacity: 0;
     border: none;
-    background-color: rgba(42, 83, 215, 0.2);
-    color: rgba(11, 7, 237, 0.926);
+    background-color: rgba(1, 5, 20, 0.907);
+    color: rgba(233, 233, 241, 0.926);
     bottom: 40px;
     border-radius: 10px;
 }
@@ -378,8 +399,8 @@ nav a {
     font-size: 60px;
     opacity: 0;
     border: none;
-    background-color: rgba(42, 83, 215, 0.2);
-    color: rgba(11, 7, 237, 0.926);
+    background-color: rgba(1, 5, 20, 0.907);
+    color: rgba(233, 233, 241, 0.926);
     bottom: 72px;
     border-radius: 10px;
 }
@@ -394,11 +415,49 @@ nav a {
     font-size: 60px;
     opacity: 0;
     border: none;
-    background-color: rgba(42, 83, 215, 0.2);
-    color: rgba(11, 7, 237, 0.926);
+    background-color: rgba(1, 5, 20, 0.907);
+    color: rgba(233, 233, 241, 0.926);
     bottom: 72px;
     border-radius: 10px;
 }
 .pre4:hover{
     opacity: 10;
 }
+.next4{
+    position: absolute;
+    z-index: 1000;
+    height: 138px;
+    width: 59px;
+    font-size: 60px;
+    opacity: 0;
+    border: none;
+    background-color: rgba(1, 4, 16, 0.83);
+    color: rgba(219, 219, 228, 0.926);
+    bottom: 72px;
+    border-radius: 4px;
+    right: 0%;
+}
+.next4:hover{
+    opacity: 10;
+}
+.next1{
+    position: absolute;
+    z-index: 1000;
+    height: 138px;
+    width: 59px;
+    font-size: 60px;
+    opacity: 0;
+    border: none;
+    background-color: rgba(1, 4, 16, 0.83);
+    color: rgba(219, 219, 228, 0.926);
+    bottom: 546x;
+    border-radius: 4px;
+    right: 0%;
+}
+.next1:hover{
+    opacity: 10;
+}
+.tanghinh{
+    display: none;
+}
+ 

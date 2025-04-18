@@ -1,109 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -129,18 +25,19 @@
                     <div>
                         <div>
                             <div class="more">
-                                <div>NBA</div>
-                                <div>K+ Plus</div>
-                                <div>Giải Trí</div>
-                                <div>Thiếu Nhi</div>
-                                <div>Podcast</div>
-                                <div>Karaoke</div>
-                                <div>Học Tập</div>
-                                <div>Phim lẻ</div>
-                                <div>FA CUP</div>
-                                <div>Billiards</div>
-                                <div>VTV GO</div>
-                                <div>E SPORT</div>
+                                <div class="tivi">NBA</div>
+                                <div class="tivi">K+ Plus</div>
+                                <div class="tivi">Giải Trí</div>
+                                <div class="tivi">Thiếu Nhi</div>
+                                <div class="tivi">Thiếu Nhi</div>
+                                <div class="tivi">Podcast</div>
+                                <div class="tivi">Karaoke</div>
+                                <div class="tivi">Học Tập</div>
+                                <div class="tivi">Phim lẻ</div>
+                                <div class="tivi">FA CUP</div>
+                                <div class="tivi">Billiards</div>
+                                <div class="tivi">VTV GO</div>
+                                <div class="tivi">E SPORT</div>
                             </div>
                         </div>
                     </div>
@@ -174,8 +71,8 @@
         <div class="carousel">
             <h2 style="text-shadow: 2px 2px 4px gray;" class="tieude1">Phim lồng tiếng / thuyết minh</H2>
             <div class="div-to">
-                <button class="pre"><i class="fa-solid fa-chevron-left"></i></button>
-                <div class="DIV-container">
+                <button data-index="1" class=" tanghinh previous pre"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class=" DIVV1 DIV-container">
                     <div class="DIV">
                         <div>
                             <img class="loaiphim1" src="img/bacsi.jpg" alt="">
@@ -198,6 +95,7 @@
                             <p class="tenphim">Võ Nương Truyền Kì</p>
                         </div>
                         <div>
+                            <button data-index="1" class="RIGHT next0"><i class="fa-solid fa-chevron-right"></i></button>
                             <img class="loaiphim2" src="img/dungrungdongvia.jpg" alt="">
                             <p class="tenphim">Đừng Rung Động Vì Anh</p>
                         </div>
@@ -226,47 +124,50 @@
             <h2 style="text-shadow: 2px 2px 4px gray;" class="tieude1">Phim đang thịnh thành</H2>
 
             <div class="div-to">
-                <button class="pre2"><i class="fa-solid fa-chevron-left"></i></button>
-                <div class="DIV">
-                    <div>
-                        <img class="phim1" src="img/phimhtml.jpg" alt="">
-                        <p class="tenphim1">Vệ Sĩ SÀI GÒN 2016</p>
-                    </div>
-                    <div>
-                        <img class="phim" src="img/phim2html.jpg" alt="">
-                        <p class="tenphim">Ngôi Đền Kì Quái</p>
-                    </div>
-                    <div>
-                        <img class="phim" src="img/phim3.jpg" alt="">
-                        <p class="tenphim">Thiết Quyền Sinh Tử</p>
-                    </div>
-                    <div>
-                        <img class="phim" src="img/phim4.jpg" alt="">
-                        <p class="tenphim">Cô Dâu 8 Tuổi</p>
-                    </div>
-                    <div>
-                        <img class="phim" src="img/phim5.jpg" alt="">
-                        <p class="tenphim">Avengers:End Game</p>
-                    </div>
-                    <div>
-                        <img class="phim" src="img/Late-Night-With-The-Devil-Header.jpeg" alt="">
-                        <p class="tenphim">Late Night With The Devil</p>
-                    </div>
-                    <div>
-                        <img class="phim" src="img/phim7.jpg" alt="">
-                        <p class="tenphim">Chuyến Tàu Sinh Tử</p>
-                    </div>
-                    <div>
-                        <img class="phim" src="img/phim8.jpg" alt="">
-                        <p class="tenphim">Về Nhà Đi Con</p>
-                    </div>
-                    <div>
-                        <img class="phim" src="img/phim9.jpg" alt="">
-                        <p class="tenphim">Độc Đạo</p>
-                    </div>
-                    <div>
-                        <img class="phim" src="img/phim10.webp" alt="">
-                        <p class="tenphim">7 Viên Ngọc Rồng</p>
+                <button data-index="2"  class=" tanghinh previous pre2"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class=" DIVV2 DIV-container">
+                    <div class="DIV">
+                        <div>
+                            <img class="phim1" src="img/phimhtml.jpg" alt="">
+                            <p class="tenphim1">Vệ Sĩ SÀI GÒN 2016</p>
+                        </div>
+                        <div>
+                            <img class="phim" src="img/phim2html.jpg" alt="">
+                            <p class="tenphim">Ngôi Đền Kì Quái</p>
+                        </div>
+                        <div>
+                            <img class="phim" src="img/phim3.jpg" alt="">
+                            <p class="tenphim">Thiết Quyền Sinh Tử</p>
+                        </div>
+                        <div>
+                            <img class="phim" src="img/phim4.jpg" alt="">
+                            <p class="tenphim">Cô Dâu 8 Tuổi</p>
+                        </div>
+                        <div>
+                            <img class="phim" src="img/phim5.jpg" alt="">
+                            <p class="tenphim">Avengers:End Game</p>
+                        </div>
+                        <div>
+                            <button data-index="2"  class="RIGHT next1"><i class="fa-solid fa-chevron-right"></i></button>
+                            <img class="phim" src="img/Late-Night-With-The-Devil-Header.jpeg" alt="">
+                            <p class="tenphim">Late Night With The Devil</p>
+                        </div>
+                        <div>
+                            <img class="phim" src="img/phim7.jpg" alt="">
+                            <p class="tenphim">Chuyến Tàu Sinh Tử</p>
+                        </div>
+                        <div>
+                            <img class="phim" src="img/phim8.jpg" alt="">
+                            <p class="tenphim">Về Nhà Đi Con</p>
+                        </div>
+                        <div>
+                            <img class="phim" src="img/phim9.jpg" alt="">
+                            <p class="tenphim">Độc Đạo</p>
+                        </div>
+                        <div>
+                            <img class="phim" src="img/phim10.webp" alt="">
+                            <p class="tenphim">7 Viên Ngọc Rồng</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -276,7 +177,8 @@
         <div class="carousel">
             <h2 style="text-shadow: 2px 2px 4px gray;" class="tieude">Âm Nhạc</H2>
             <div class="div-to">
-                <button class="pre3"><i class="fa-solid fa-chevron-left"></i></button>
+                <button data-index="3"  class=" previous pre3"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class=" DIVV3 DIV-container">
                 <div class="DIV">
                     <div>
                         <img class="phim1" src="img/haanhtuan.jpg" alt="">
@@ -300,6 +202,7 @@
                         <p class="tenphim">SƠN TÙNG M-TP | CHÚNG TA CỦA HIỆN TẠI | OFFICIAL MUSIC VIDEO</p>
                     </div>
                     <div>
+                        <button data-index="3"  class="RIGHT next4"><i class="fa-solid fa-chevron-right"></i></button>
                         <img class="phim" src="img/meyeucon.jpg" alt="">
                         <p class="tenphim">MẸ YÊU CON - Nhà TINH HOA | ANH TRAI VƯỢT NGÀN CHÔNG GAI 2024</p>
                     </div>
@@ -312,13 +215,15 @@
                         <p class="tenphim">Westlife - Beautiful in white (Lyrics)</p>
                     </div>
                 </div>
+                </div>
             </div>
             <!-- <button class="next">❯</button> -->
         </div>
         <div class="carousel">
             <h2 style="text-shadow: 2px 2px 4px gray;" class="tieude">Thể Thao</H2>
             <div class="div-to">
-                <button class="pre4"><i class="fa-solid fa-chevron-left"></i></button>
+                <button data-index="4" class=" tanghinh previous pre4"><i class="fa-solid fa-chevron-left"></i></button>
+                <div class="DIVV4 DIV-container">
                 <div class="DIV">
                     <div>
                         <img class="phim1" src="img/arg.jpg" alt="">
@@ -344,6 +249,7 @@
                         </p>
                     </div>
                     <div>
+                        <button data-index="4"  class="RIGHT next4"><i class="fa-solid fa-chevron-right"></i></button>
                         <img class="phim" src="img/realbarca.jfif" alt="">
                         <p class="tenphim">Real Madrid vs Barcelona Highlights and Results - Spanish Super Cup 2024</p>
                     </div>
@@ -357,7 +263,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <button class="next">❯</button> -->
+            </div>
         </div>
     </main>
 
