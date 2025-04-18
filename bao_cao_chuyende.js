@@ -46,3 +46,8 @@ document.querySelectorAll('.DIV-container').forEach(container => {
         
     })
 })
+window.addEventListener('load',()=>{
+    document.querySelectorAll('.previous').forEach(button => {
+            button.classList.add('tanghinh');
+    })
+})
