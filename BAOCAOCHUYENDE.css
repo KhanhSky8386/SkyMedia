@@ -477,6 +477,15 @@ ul {
 .fa-bars{
     display: none !important;
 }
+.MENU{
+    background-color: gray;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2000;
+}
 @media screen and (max-width: 979px) {
     .one {
         display: none;
@@ -506,13 +515,16 @@ ul {
     .text{
         margin-top: 15px;
     }
+    .previous ,
+    .RIGHT{
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 670px) {  
     .backgr2 {
         border-radius: 8px;
     }
-
     .phongchu {
         font-size: 25px;
     }
@@ -528,6 +540,10 @@ ul {
     .dki{
         font-size: 11px;
         padding: 0px;
+    }
+    .previous ,
+    .RIGHT{
+        display: none !important;
     }
 }
 
