@@ -7,6 +7,18 @@ document.querySelector('.xemthem').addEventListener('click', (event) => {
     }
 });
 
+document.querySelector('#hamburger-menu').addEventListener('click',(event)=>{
+    event.stopPropagation()
+    if(document.querySelector('.MENU').classList.contains('hienthi2'))
+        document.querySelector('.MENU').classList.remove('hienthi2');
+    else {
+        document.querySelector('.MENU').classList.add('hienthi2');
+    }
+});
+document.body.addEventListener('click',()=>{
+    if(document.querySelector('.MENU').classList.contains('hienthi2'))
+        document.querySelector('.MENU').classList.remove('hienthi2');
+})
 
 document.body.addEventListener('click', () => {
     if (document.querySelector('.more').classList.contains('hienThi'))
@@ -44,8 +56,4 @@ document.querySelectorAll('.DIV-container').forEach(container => {
         }
     })
 })
-// window.addEventListener('load', () => {
-//     document.querySelectorAll('.previous').forEach(button => {
-//         button.classList.add('tanghinh');
-//     })
-// })
+
