@@ -50,6 +50,7 @@ nav a {
 .one {
     display: flex;
     justify-content: flex-start;
+    column-gap: 20px;
 }
 
 .logo1 {
@@ -504,7 +505,6 @@ ul {
 .MENU div{
     max-width: 200px;
     width: 100%;
-    text-align: ;
 }.MENU span{
     padding-left: 20px;
 } 
@@ -567,5 +567,15 @@ ul {
     .RIGHT{
         display: none !important;
     }
+}
+.text-go{
+    width: 560px;
+    display: flex;
+    height: 20px;
+    color: rgb(173, 248, 23);
+}
+.chu-chay{
+    margin-top: 0.5px;
+    font-size: 18px;
 }
 

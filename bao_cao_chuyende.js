@@ -4,7 +4,7 @@ document.querySelector('.xemthem').addEventListener('click', (event) => {
         document.querySelector('.more').classList.remove('hienThi');
     else {
         document.querySelector('.more').classList.add('hienThi');
-    }
+    } 
 });
 
 document.querySelector('#hamburger-menu').addEventListener('click',(event)=>{
@@ -56,4 +56,7 @@ document.querySelectorAll('.DIV-container').forEach(container => {
         }
     })
 })
+// document.querySelector('.text-go').addEventListener('onmouseover', ()=>{
+
+// })
 
