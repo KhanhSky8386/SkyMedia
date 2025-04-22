@@ -553,17 +553,13 @@ ul {
     }
     .text-go{
         display: none !important;
-    }
+    } 
     main{
         margin-top: 48px;
     }
     .marquee{
-        height: 25px;
-        background-color: red;
-        margin-top: 1px;
         display: flex !important;
     }
-
 }
 
 @media screen and (max-width: 670px) {  
@@ -607,7 +603,7 @@ ul {
 }
 .marquee{
     height: 25px;
-    background-color: red;
+    background-color: #201c1c; color: #FFD700; font-weight: bold;
     margin-top: 1px;
     display: none;
 }
