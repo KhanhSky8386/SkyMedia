@@ -521,13 +521,15 @@ ul {
     .fa-bars {
         display: initial !important;
     }
+    main{
+        margin-top: 48px;
+    }
 }
 
 @media screen and (max-width: 445px) { 
     .logo {
         display: none;
     }
-    
     .fa-bars {
         display: initial !important;
     }
@@ -541,6 +543,27 @@ ul {
     .RIGHT{
         display: none !important;
     }
+    .loaiphim1,.loaiphim2 {
+        height: 270px; 
+        width: 203px;
+    }
+    .phim1,.phim{
+        height: 108px;
+        width: 203px;
+    }
+    .text-go{
+        display: none !important;
+    }
+    main{
+        margin-top: 48px;
+    }
+    .marquee{
+        height: 25px;
+        background-color: red;
+        margin-top: 1px;
+        display: flex !important;
+    }
+
 }
 
 @media screen and (max-width: 670px) {  
@@ -567,9 +590,13 @@ ul {
     .RIGHT{
         display: none !important;
     }
+    main{
+        margin-top: 48px;
+    }
 }
 .text-go{
-    width: 560px;
+    max-width: 570px;
+    width: 100%;
     display: flex;
     height: 20px;
     color: rgb(173, 248, 23);
@@ -578,4 +605,15 @@ ul {
     margin-top: 0.5px;
     font-size: 18px;
 }
-
+.marquee{
+    height: 25px;
+    background-color: red;
+    margin-top: 1px;
+    display: none;
+}
+.text-go2{
+    margin-top: 2px;
+}
+.chu-chay2{
+    margin-top: 2px;
+}
