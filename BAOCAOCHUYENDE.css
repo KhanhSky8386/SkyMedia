@@ -529,6 +529,9 @@ ul {
     main{
         margin-top: 48px;
     }
+    header{
+        padding: 5px 10px;
+    }
 }
 
 @media screen and (max-width: 445px) { 
@@ -591,6 +594,7 @@ ul {
     main{
         margin-top: 48px;
     }
+    
 }
 .marquee-big{
     display: flex;
@@ -600,13 +604,13 @@ ul {
     height: 25px;
     background-color: #201c1c; color: #FFD700; font-weight: bold;
     margin-top: 0;
-    max-width: 443px;
+    max-width: 900px;
     width: 100%;
 }
 .text-go2{
     display: flex;
     margin-bottom: 1px;
-    max-width: 443px;
+    max-width: 900px;
     width: 100%;
 }
 .chu-chay2{
